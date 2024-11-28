@@ -29,6 +29,7 @@ print("Tablas 'Person' y 'Pet' creadas con éxito.")
 # Insertar ejemplos
 # Crear un propietario
 person = Person.create(name="Alice", birthday="1992-07-15")
+person.save()
 
 # Crear mascotas para este propietario
 Pet.create(owner=person, name="Fido", animal_type="dog")
