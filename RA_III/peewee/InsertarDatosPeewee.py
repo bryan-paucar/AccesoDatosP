@@ -1,5 +1,5 @@
 from peewee import IntegrityError
-from CreacionTablaPeewee import User, database  # Importamos User y la conexión
+from RA_III.peewee.CreacionTablaPeewee import User, database  # Importamos User y la conexión
 
 class GestorUsuarios:
     """Clase para manejar la inserción de usuarios en la tabla Users."""
